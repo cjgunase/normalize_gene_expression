@@ -1,4 +1,14 @@
 # normalize_gene_expression
+
+
+1. Sort data in each column independently in descending order to obtain a new sorted matrix  (somehow you have to remember their original order, you can use gene ID in first column).
+
+2. Set each number in the same row (of sorted matrix) to the average of that row (namely the average of 12 columns in the same row)
+
+3. Sort each column back to its original order.
+
+4. After above procedure, each column should have the same average, and distribution.
+
 Step 1 
 for example, original data
 G1       2         4     5
